@@ -10,11 +10,10 @@ html {
 header {
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
+    background-color: #080F0F;
     position: fixed;
     z-index: 10;
 }
@@ -35,10 +34,10 @@ header ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 #NAVIGATION a {
-    color: white;
+    color: #97A97C;
  }
 
  header a:hover {
@@ -48,10 +47,10 @@ header ul {
  }
  @keyframes hover {
     0% {
-        color:rgb(255, 255, 255)
+        color: #97A97C
     }
     100% {
-        color: rgb(0, 110, 255)
+        color: rgb(255, 255, 255)
     }
  }
 
@@ -75,6 +74,7 @@ header ul {
     color: black;
     font-size: 6vw;
     font-weight: 600;
+    font-family: 'Fredericka the Great', cursive;
     z-index: 1;
     width: 100%;
     text-align: center;
@@ -101,7 +101,37 @@ header ul {
     }
 }
 
+/* About Us */
+
+#ABOUT_US {
+    background-color: #E9F5DB;
+    position: relative;
+    top: -.2rem;
+    height: 100vh;
+}
+
+#SERVICES {
+    background-color: #CFE1B9;
+    position: relative;
+    top: -.2rem;
+    height: 100vh;
+}
+
+#RATES {
+    background-color: #B5C99A;
+    position: relative;
+    top: -.2rem;
+    height: 100vh;
+}
+
 /* Form */
+#CONTACT_US {
+    background-color: #97A97C;
+    position: relative;
+    top: -.2rem;
+    height: 100vh;
+    width: 100%
+}
 
 #CONTACT_US_FORM {
     display: flex;
@@ -119,11 +149,20 @@ small {
     margin-top: .2rem;
 }
 
-#CONTACT_US {
-    margin: 3rem;
+#SUBMIT {
+    width: 4rem;
+    margin: 0 auto;
 }
 
 /* LOCATION */
+
+#LOCATION {
+    background-color: #87986A;
+    position: relative;
+    top: -.2rem;
+    height: 100%;
+    padding: 5% 0;
+}
 
 iframe {
     margin: 0 5%;
@@ -132,8 +171,11 @@ iframe {
 /* Footer */
 
 footer {
-    margin: 3rem 0;
+    padding: 3rem 0;
     text-align: center;
     font-size: 1.25rem;
     font-weight: 500;
+    background-color: #718355;
+    position: relative;
+    top: -.2rem;
 }
