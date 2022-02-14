@@ -8,7 +8,7 @@ html {
 /* Navigation Bar */
 
 header {
-    height: 125px;
+    height: 100px;
     width: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -16,6 +16,7 @@ header {
     justify-content: space-between;
     background-color: black;
     position: fixed;
+    z-index: 10;
 }
 
 nav {
@@ -41,41 +42,46 @@ header ul {
  }
 
  header a:hover {
-     animation-name: hover;
-     animation-duration: .5s;
-     animation-fill-mode: forwards
+    animation-name: hover;
+    animation-duration: .5s;
+    animation-fill-mode: forwards
  }
  @keyframes hover {
-     0% {
-         color:rgb(255, 255, 255)
-     }
-     100% {
-         color: rgb(0, 110, 255)
-     }
+    0% {
+        color:rgb(255, 255, 255)
+    }
+    100% {
+        color: rgb(0, 110, 255)
+    }
  }
 
  /* Banner Image */
 
  .SPACER {
-     height: 126px;
+    height: 100px;
  } 
  
  .TRANSPARANT_LAYER {
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+ }
+
+ #HERO_IMAGE {
      width: 100%;
-     height: 38.375rem;
-     background-image: url(../resources/HeroImage.png);
-     background-repeat: no-repeat;
-     background-size: 100%;
-     display: flex;
-     justify-content: center;
  }
 
  #BANNER_TEXT {
-     color: black;
-     font-size: 6vw;
-     font-weight: 600;
-     align-self: center;
-     z-index: 1;
+    color: black;
+    font-size: 6vw;
+    font-weight: 600;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
  }
 
  .FOCUS_IN_EXPAND {
