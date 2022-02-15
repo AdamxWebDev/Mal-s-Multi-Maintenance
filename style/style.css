@@ -130,12 +130,7 @@ header ul {
     height: 100vh;
 }
 
-#SERVICES {
-    background-color: #CFE1B9;
-    position: relative;
-    top: -.2rem;
-    height: 100vh;
-}
+
 
 #RATES {
     background-color: #B5C99A;
@@ -143,6 +138,24 @@ header ul {
     top: -.2rem;
     height: 100vh;
 }
+
+/* Services */
+
+#SERVICES {
+    background-color: #CFE1B9;
+    position: relative;
+    top: -.2rem;
+    height: 100%;
+}
+
+.IMAGE_CONTAINER {
+    margin: 3rem;
+}
+
+.IMAGE_CONTAINER img {
+    width: 25vw;
+}
+
 
 /* Form */
 #CONTACT_US {
