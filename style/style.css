@@ -127,16 +127,7 @@ header ul {
     background-color: #E9F5DB;
     position: relative;
     top: -.2rem;
-    height: 100vh;
-}
-
-
-
-#RATES {
-    background-color: #B5C99A;
-    position: relative;
-    top: -.2rem;
-    height: 100vh;
+    height: 50vh;
 }
 
 /* Services */
@@ -145,17 +136,28 @@ header ul {
     background-color: #CFE1B9;
     position: relative;
     top: -.2rem;
-    height: 100%;
-}
-
-.IMAGE_CONTAINER {
-    margin: 3rem;
+    height: 100vh;    
 }
 
 .IMAGE_CONTAINER img {
     width: 25vw;
 }
 
+#SERVICES_CONTAINER {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+}
+
+/* Rates */
+
+#RATES {
+    background-color: #B5C99A;
+    position: relative;
+    top: -.2rem;
+    height: 100vh;
+}
 
 /* Form */
 #CONTACT_US {
